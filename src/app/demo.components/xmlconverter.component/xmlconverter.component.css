@@ -1,0 +1,21 @@
+﻿.inner-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.panel-header {
+    background-color: coral;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.panel-textarea {
+    display: flex;
+    flex: 1;
+    margin: 0.2em;
+}

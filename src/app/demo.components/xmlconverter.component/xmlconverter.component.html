@@ -1,0 +1,15 @@
+﻿<div class="fill-area flexbox-item-grow panel-two">
+    <div class="inner-panel">
+        <h3 class="panel-header">XML IN</h3>
+        <textarea class="panel-textarea" [(ngModel)]='xmlIn'></textarea>
+        <button>Manual Convert</button>
+    </div>
+    <div class="inner-panel">
+        <h3 class="panel-header">JSON OUT</h3>
+        <textarea class="panel-textarea" [(ngModel)]='jsonOut'></textarea>
+        <button (click)="manualOutput()">Manual Output</button>
+    </div>
+</div>
+
+
+

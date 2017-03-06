@@ -1,0 +1,24 @@
+﻿<h2 class="demo-header">TEXTBOX NUMERIC COMPONENT</h2>
+
+<markdown [markdownString]="bio"></markdown>
+
+
+<markdown [markdownString]="demoOneMarkdownString"></markdown>
+
+<xml-converter [xmlIn]="demoOneXmlIn" [jsonOut]="demoOneJsonOut" (jsonOutput)="jsonOutChange($event)"></xml-converter>
+
+<exceedra-textbox-numeric class="center-component" [setup]="demoOneModelInput"></exceedra-textbox-numeric>
+
+
+<markdown [markdownString]="demoTwoMarkdownString"></markdown>
+
+<xml-converter [xmlIn]="demoTwoXmlIn" [jsonOut]="demoTwoJsonOut" (jsonOutput)="jsonOutChangeTwo($event)"></xml-converter>
+
+<exceedra-textbox-numeric class="center-component" [setup]="demoTwoModelInput"></exceedra-textbox-numeric>
+
+
+<markdown [markdownString]="demoThreeMarkdownString"></markdown>
+
+<xml-converter [xmlIn]="demoThreeXmlIn" [jsonOut]="demoThreeJsonOut" (jsonOutput)="jsonOutChangeThree($event)"></xml-converter>
+
+<exceedra-textbox-numeric class="center-component" [setup]="demoThreeModelInput"></exceedra-textbox-numeric>

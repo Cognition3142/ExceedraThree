@@ -1,0 +1,11 @@
+﻿<h2 class="demo-header">TEXTBOX BASIC COMPONENT DEMO</h2>
+
+<markdown [markdownString]="bio"></markdown>
+
+<markdown [markdownString]="demoOneMarkdownString"></markdown>
+
+<xml-converter [xmlIn]="demoOneXmlIn" [jsonOut]="demoOneJsonOut" (jsonOutput)="jsonOutChange($event)"></xml-converter>
+
+<exceedra-textbox-basic class="center-component" [setup]="demoOneModelInput"></exceedra-textbox-basic>
+
+
